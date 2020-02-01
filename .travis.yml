@@ -6,4 +6,4 @@ before_install:
   - docker build -t nick/react -f Dockerfile.dev .
 
 script:
- -docker run nick/react npm run test -- --coverage
+  - docker run nick/react npm run test -- --coverage
